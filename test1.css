@@ -20,17 +20,17 @@ body
         /*background-color:#CEFFCE;*/
     }
 
-#map {
-    height: 500px;
-    width: 12%;
-    margin-left: 5%;
-    margin-top: 61px;
-    border: 2px solid;
-    float: none;
-    border-radius: 5px;
-    position: fixed;
-    background-color:#CEFFCE;
-}
+    #map {
+        height: 500px;
+        width: 12%;
+        margin-left: 5%;
+        margin-top: 600px;
+        border: 2px solid;
+        float: none;
+        border-radius: 5px;
+        position: fixed;
+        background-color:#CEFFCE;
+    }
     ul
     {
         list-style-position:outside;
