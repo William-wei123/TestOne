@@ -80,6 +80,8 @@ body
         margin-bottom:20px;
         
         width:61.8%;
+        
+        display:none;
         }
     
     .text_z     /*中文字*/
