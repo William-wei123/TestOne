@@ -1,0 +1,95 @@
+body
+    {
+        background-image:url(./image/0.jpg);
+        margin:0;
+        /*background-color:Gray;*/
+        float:none;
+    }
+    .main_top
+    {
+        margin-left:20px;
+        /*vertical-align:middle;*/
+        }
+    .frame111
+    {
+        margin-left:10%;
+        width:80%;
+        
+       
+    }
+    
+    .frame_main
+    {
+        /*background-color:Black;*/
+        border-radius:10px;
+    }
+    
+    #top        /*顶部*/    
+    {
+        /*background-color:#FFFAF4;*/
+        
+        /*height:125px;
+        
+        position:fixed;*/
+        top: 0px;
+        left: 0px;
+        border-radius:10px;
+    }
+    
+    #main       /*主部*/
+    {
+        /*background-color:#E6E6F2;*/
+        /*margin-top:125px;*/
+        height:1500px;
+        border-radius:10px;
+    }
+    
+    #left       /*主部的左边*/
+    {
+        width:20%;
+        float:left;
+        
+        border-radius:5px;
+    }
+    
+    #right      /*主部的右边*/
+    {
+        width:80%;
+        float:left;
+        
+        border-radius:5px;
+    }
+    
+    #bottom     /*底部*/
+    {
+        height:100px;
+        background-color:Lime;
+        border-radius:5px;
+    }
+    
+    .content
+    {
+        border-radius:5px;
+        border-color:Gray;
+        border-width:1px;
+        border-style:solid;
+        
+        text-indent:30px;
+        font-family:"宋体";
+        
+        margin-bottom:20px;
+        
+        width:61.8%;
+        }
+    
+    .text_z     /*中文字*/
+    {
+        line-height:50px;       /*行高*/
+        font-family:"宋体";
+        }
+        
+    .text_y     /*英文字*/
+    {
+    }
+    
+    
