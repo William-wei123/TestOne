@@ -26,11 +26,12 @@ body {
 
 #map {
     /*height: 114px;*/
+    background-color: unset;
     margin-top: 590px;
 }
 
 #declare {
-    margin-top: 710px;
+    margin-bottom: 2px;
     font-size: smaller;
     font-weight: 500;
     text-align: center;
