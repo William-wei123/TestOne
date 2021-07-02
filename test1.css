@@ -7,15 +7,15 @@ body {
 }
 
 #left {
-    height: 500px;
-    width: 13%;
+    height: 114px;
+    width: 201px;
     margin-left: 5%;
-    margin-top: 61px;
-    border: 2px solid;
-    float: left;
-    border-radius: 20px;
+    margin-top: 600px;
+    /*border: 2px solid;*/
+    float: none;
+    border-radius: 10px;
     position: fixed;
-    background-color: #2d78ad;
+    background-color: #CEFFCE;
     overflow: hidden;
 }
 
