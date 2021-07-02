@@ -27,7 +27,6 @@ body {
 #map {
     height: 114px;
     margin-top: 590px;
-    overflow: unset;
 }
 
 #declare {
