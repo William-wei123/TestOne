@@ -20,8 +20,8 @@ body {
 }
 
 #map {
-    height: auto;
-    width: 13%;
+    height: 103px;
+    width: 201px;
     margin-left: 5%;
     margin-top: 600px;
     /*border: 2px solid;*/
