@@ -6,55 +6,40 @@ body {
     float: none;
 }
 
-#left {
-    height: 500px;
+#left, #map, #declare {
     width: 13%;
     margin-left: 5%;
-    margin-top: 61px;
-    border: 2px solid;
-    float: left;
-    border-radius: 20px;
+    float: none;
+    border-radius: 10px;
     position: fixed;
     background-color: #2d78ad;
     overflow: hidden;
 }
 
+#left {
+    height: 500px;
+    margin-top: 61px;
+    border: 2px solid;
+    float: left;
+    border-radius: 20px;
+}
+
 #map {
     height: 114px;
-    width: 201px;
-    margin-left: 5%;
     margin-top: 590px;
-    /*border: 2px solid;*/
-    float: none;
-    border-radius: 10px;
-    position: fixed;
-    background-color: #CEFFCE;
-    overflow: hidden;
+    overflow: unset;
 }
-#declare{
-    
-    width: 201px;
-    margin-left: 5%;
+
+#declare {
     margin-top: 710px;
-    /*height: 114px;border: 2px solid;background-color: #CEFFCF;*/
-    float: none;
-    border-radius: 10px;
-    position: fixed;
-    
-    overflow: hidden;
-    font-size:smaller;
-    
-    font-weight:500;
+    font-size: smaller;
+    font-weight: 500;
+    text-align: center;
+    background-color: unset;
 }
 
 ul {
     list-style-position: outside;
-}
-
-#left ul li {
-    display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 #left a:hover {
@@ -79,15 +64,15 @@ ul {
         color: black;
     }
 
-#left div:hover .join,.lab{
+#left div:hover .join, .lab {
     display: block;
 }
 
-#left div:hover  .lab {
+#left div:hover .lab {
     display: block;
 }
 
-#left div .join,.lab {
+#left div .join, .lab {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -96,15 +81,15 @@ ul {
     padding: 10px 12px;
 }
 
-#left div .join a {
-    text-align: left;
-    display: block;
-    /*height:50px;padding-bottom:15px;*/
-    padding-top: 0px;
-    padding-bottom: 0px;
-    text-decoration: none;
-    font-weight: bold;
-}
+    #left div .join a {
+        text-align: left;
+        display: block;
+        /*height:50px;padding-bottom:15px;*/
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-decoration: none;
+        font-weight: bold;
+    }
 
 #main /*主部*/ {
     /*background-color:#E6E6F2;*/
@@ -156,6 +141,7 @@ a:visited, a:link {
 
 #public li /*主部主*/ {
     height: 200px;
+    overflow: auto;
 }
 
 #main_2 ul li p /*主部主*/ {
