@@ -37,6 +37,7 @@ body {
     text-align: center;
     background-color: transparent;
     bottom:0;
+    width:100%;
     position:absolute;
 }
 
