@@ -15,17 +15,17 @@ body
         margin-top:61px;
         border:2px solid;
         float:left;
-        border-radius:5px;
+        border-radius:10px;
         position:fixed;
         /*background-color:#CEFFCE;*/
     }
 
     #map {
-        height: 500px;
+        height: auto;
         width: 12%;
         margin-left: 5%;
         margin-top: 600px;
-        border: 2px solid;
+        /*border: 2px solid;*/
         float: none;
         border-radius: 5px;
         position: fixed;
