@@ -23,13 +23,28 @@ body {
     height: 114px;
     width: 201px;
     margin-left: 5%;
-    margin-top: 600px;
+    margin-top: 590px;
     /*border: 2px solid;*/
     float: none;
     border-radius: 10px;
     position: fixed;
     background-color: #CEFFCE;
     overflow: hidden;
+}
+#declare{
+    
+    width: 201px;
+    margin-left: 5%;
+    margin-top: 710px;
+    /*height: 114px;border: 2px solid;background-color: #CEFFCF;*/
+    float: none;
+    border-radius: 10px;
+    position: fixed;
+    
+    overflow: hidden;
+    font-size:smaller;
+    
+    font-weight:500;
 }
 
 ul {
@@ -64,17 +79,31 @@ ul {
         color: black;
     }
 
-#left div:hover span {
+#left div:hover .join,.lab{
     display: block;
 }
 
-#left div span {
+#left div:hover  .lab {
+    display: block;
+}
+
+#left div .join,.lab {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    /*min-width: 160px;*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
+    padding: 10px 12px;
+}
+
+#left div .join a {
+    text-align: left;
+    display: block;
+    /*height:50px;padding-bottom:15px;*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #main /*主部*/ {
