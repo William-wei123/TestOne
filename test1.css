@@ -7,20 +7,20 @@ body {
 }
 
 #left {
-    height: 114px;
-    width: 201px;
+    height: 500px;
+    width: 13%;
     margin-left: 5%;
-    margin-top: 600px;
-    /*border: 2px solid;*/
-    float: none;
-    border-radius: 10px;
+    margin-top: 61px;
+    border: 2px solid;
+    float: left;
+    border-radius: 20px;
     position: fixed;
-    background-color: #CEFFCE;
+    background-color: #2d78ad;
     overflow: hidden;
 }
 
 #map {
-    height: 103px;
+    height: 114px;
     width: 201px;
     margin-left: 5%;
     margin-top: 600px;
