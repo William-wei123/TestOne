@@ -6,7 +6,7 @@ body {
     float: none;
 }
 
-#left, #map, #declare {
+#left, #map {
     width: 13%;
     margin-left: 5%;
     float: none;
@@ -31,11 +31,12 @@ body {
 }
 
 #declare {
-    margin-top: 710px;
+    /*margin-bottom: 2px;*/
     font-size: smaller;
     font-weight: 500;
     text-align: center;
     background-color: transparent;
+    bottom:0;
     position:absolute;
 }
 
