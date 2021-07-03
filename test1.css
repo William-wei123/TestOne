@@ -57,9 +57,7 @@ ul {
     color:white;
 }
 
-#left span a:visited, a:link {
-    color: black;
-}
+
 #left a:visited, a:link {
     color: white;
 }
@@ -72,6 +70,9 @@ ul {
         color: #2d78ad;
         font-weight: 900;
     }
+#left span a:visited, a:link {
+    color: black;
+}
 #left div:hover .join, .lab {
     display: block;
 }
