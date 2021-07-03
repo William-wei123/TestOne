@@ -39,6 +39,7 @@ body {
     bottom: 0;
     width: 100%;
     position: absolute;
+    color:white;
 }
 
 ul {
@@ -55,11 +56,13 @@ ul {
     font-weight: bold;
     color:white;
 }
-    
 
-    #left a:visited, a:link {
-        color: white;
-    }
+#left span a:visited, a:link {
+    color: black;
+}
+#left a:visited, a:link {
+    color: white;
+}
 
     #left a:active {
         color: white;
